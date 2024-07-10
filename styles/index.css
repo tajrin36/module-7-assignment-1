@@ -12,6 +12,11 @@ body {
   margin: 0px;
   padding: 0px;
 }
+/* button styles */
+.nav-button:hover{
+  background-color: rgba(0, 76, 232, 0.05);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
 
 /* nav styles */
 .nav-content {
@@ -33,7 +38,8 @@ body {
   background-color: white;
   border-radius: 10px;
   border: 1px solid black;
-  font-family: "Azeret Mono"
+  font-family: "Azeret Mono";
+  transition: 0.3s;
 }
 
 /* banner styles */
@@ -86,6 +92,12 @@ body {
   color: white;
   font-family: "Azeret Mono";
   font-size: medium;
+}
+.banner-btn:hover{
+  background-color: whitesmoke;
+  color: black;
+  transition: 0.3s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
 }
 .banner-button {
   position: relative;
@@ -147,6 +159,11 @@ body {
   width: 100px;
   background-color: white;
   margin-top: 20px;
+}
+.btn:hover{
+  background-color: rgba(255, 76, 30, 0.05);
+  transition: 0.5s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
 }
 .child-container-2 {
   display: flex;
@@ -538,14 +555,20 @@ input::placeholder{
 .footer-content{
   display: flex;
   height: 50px;
-  gap: 340px;
+  gap: 320px;
   background-color: rgba(13, 19, 33, 0.03);
 }
 .foot-heading{
-  margin-left: 320px;
+  margin-left: 305px;
   text-align: center;
   padding: 19px;
+  /* border: 1px solid black; */
 }
 .foot-icon{
   padding: 14px;
+}
+.foot-a:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  transition: 0.3s;
+  
 }

@@ -4,8 +4,9 @@
   font-style: normal;
 }
 body {
-  width: 1517px;
+  max-width: 1517px;
   height: 3905px;
+  margin: 0 auto;
   /* border: 1px solid black; */
 }
 * {

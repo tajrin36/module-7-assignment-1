@@ -233,3 +233,135 @@ body {
   margin-bottom: 35px;
   border-radius: 15px;
 }
+
+/* current target styles */
+.current-target-content{
+  /* border: 1px solid black; */
+  width: 800px;
+  margin-left: 320px;
+  margin-top: 70px;
+  height: 700px;
+}
+.current-target-content>h3{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 10px;
+}
+.current-para{
+   /* border: 1px solid black;  */
+  width: 500px;
+  margin-left: 150px;
+  margin-top: 13px;
+  
+}
+.current-p{
+  text-align: center;
+  font-weight: 200;
+  font-size: 13px;
+  color: rgba(13, 19, 33, 1);
+}
+.current-course-container{
+  display: flex;
+  gap: 50px;
+  margin-top: 45px;
+}
+.current-html{
+  /* border: 1px solid black; */
+  padding: 15px;
+  height: 160px;
+  width: 200px;
+  background-color: rgba(255, 76, 30, 0.05);
+  border-radius: 15px;
+}
+.current-html>h4{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 5px;
+  color: (13, 19, 33, 1)
+}
+.html-para{
+  /* border: 1px solid black; */
+  width: 180px;
+  margin-top: 10px;
+  height: 80px;
+}
+.html-para>p{
+  font-weight: 200;
+  font-size: 12px;
+  color: rgba(13, 19, 33, 1);
+}
+.html-a{
+  position: relative;
+  /* border: 1px solid black; */
+  top: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(13, 19, 33, 1);
+}
+.current-css{
+  /* border: 1px solid black; */
+  padding: 15px;
+  height: 160px;
+  width: 200px;
+  background-color: rgba(0, 76, 232, 0.05);
+  border-radius: 15px;
+}
+.current-css>h4{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 5px;
+  color: (13, 19, 33, 1)
+}
+.css-para{
+  /* border: 1px solid black; */
+  width: 180px;
+  margin-top: 10px;
+  height: 80px;
+}
+.css-para>p{
+  font-weight: 200;
+  font-size: 12px;
+  color: rgba(13, 19, 33, 1);
+}
+.css-a{
+  position: relative;
+  /* border: 1px solid black; */
+  top: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(13, 19, 33, 1);
+}
+.current-js{
+  /* border: 1px solid black; */
+  padding: 15px;
+  height: 160px;
+  width: 200px;
+  background-color: rgba(255, 223, 0, 0.05);
+  border-radius: 15px;
+}
+.current-js>h4{
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 5px;
+  color: (13, 19, 33, 1)
+}
+.js-para{
+  /* border: 1px solid black; */
+  width: 180px;
+  margin-top: 10px;
+  height: 80px;
+}
+.js-para>p{
+  font-weight: 200;
+  font-size: 12px;
+  color: rgba(13, 19, 33, 1);
+}
+.js-a{
+  position: relative;
+  /* border: 1px solid black; */
+  top: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(13, 19, 33, 1);
+}
